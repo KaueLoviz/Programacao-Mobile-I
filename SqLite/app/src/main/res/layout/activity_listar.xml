@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Listar"
+    android:orientation="vertical"
+    android:background="@drawable/fundy">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/ic_chamada_telefonica"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <ListView
+        android:layout_width="300dp"
+        android:layout_height="430dp"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/lvContato"/>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Configuracao"
+    android:orientation="vertical"
+    android:background="@drawable/cabecalho">
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/seta"
+        android:onClick="btnVoltarsair">
+    </Button>
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Configurações"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:fontFamily="@font/arial"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:textColorHint="#FFF"
+        android:backgroundTint="#FFF">
+    </TextView>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/trocardeusuario"
+        android:layout_gravity="center_horizontal"
+        android:onClick="btnSairTrocar">
+
+    </Button>
+
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/sair"
+        android:layout_gravity="center_horizontal"
+        android:onClick="btnSair">
+
+    </Button>
+
+
+
+
+
+</LinearLayout>

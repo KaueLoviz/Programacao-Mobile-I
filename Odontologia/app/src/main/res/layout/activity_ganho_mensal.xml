@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GanhoMensal"
+    android:orientation="vertical"
+    android:background="@drawable/fundo">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/seta"
+        android:onClick="btnVoltarGanhoMensal">
+    </Button>
+
+    <ListView
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="130dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/listona">
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Valor Total"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/resultado">
+
+    </TextView>
+
+
+
+
+
+
+</LinearLayout>

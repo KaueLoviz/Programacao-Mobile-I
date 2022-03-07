@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recuperar"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@android:color/white"
+        android:id="@+id/relative"
+        android:elevation="10dp">
+
+        <View
+            android:id="@+id/waverecuperar"
+            android:background="@drawable/ic_recuperarwave"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Recovery password,\nwith your email"
+            android:textSize="35sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:paddingHorizontal="40dp"
+            android:paddingVertical="70dp"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/emailrecuperar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:paddingBottom="20dp"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:layout_below="@+id/relative"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#B6B6B6"
+        android:textColorHint="#B6B6B6"/>
+
+    <TextView
+        android:id="@+id/recuperarsenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I remembered ny password"
+        android:textSize="15sp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@+id/emailrecuperar"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/proximarecuperar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/setinhaazul"
+        android:layout_below="@+id/recuperarsenha"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="15dp"
+        android:onClick="recuperaremail"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recuperar"
+    android:background="@drawable/fundologin"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/seta"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="btnVoltarCadastroIII">
+
+    </Button>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esqueceu sua senha ? Enviaremos um código de verificação para o e-mail abaixo. Redefina sua senha!"
+        android:textSize="20sp"
+        android:fontFamily="@font/arial"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFF"
+        android:layout_marginTop="50dp">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="50dp"
+        android:textSize="25sp"
+        android:fontFamily="@font/arial"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#FFF"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#FFF">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar e-mail"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="50dp"
+        android:textSize="25sp"
+        android:fontFamily="@font/arial"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#FFF"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#FFF">
+    </EditText>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/continuar"
+        android:layout_gravity="center_horizontal"
+        android:onClick="btngo">
+
+    </Button>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fundosplashsegundo">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAgendar"
+        android:onClick="Agendar"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Agendar"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:background="@drawable/custon_button"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConsultas"
+        android:onClick="Consultas"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Consultas"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:background="@drawable/custon_button"
+        android:textColor="#000000"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGanhoMensal"
+        android:onClick="GanhoMensal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Ganho Mensal"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:background="@drawable/custon_button"
+        android:textColor="#000000"/>
+
+
+</LinearLayout>

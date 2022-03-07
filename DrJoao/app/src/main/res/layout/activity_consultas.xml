@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConsultasActivity"
+    android:orientation="vertical"
+    android:background="@drawable/minifundo">
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/seta"
+        android:layout_marginLeft="20dp"
+        android:onClick="VoltarConsul" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="-45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:text="Consultas:"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp" />
+
+    <ListView
+        android:id="@+id/listinha"
+        android:layout_width="300dp"
+        android:layout_height="333dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:padding="10dp"></ListView>
+
+</LinearLayout>
+

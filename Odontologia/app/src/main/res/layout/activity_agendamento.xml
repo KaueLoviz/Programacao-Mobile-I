@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agendamento"
+    android:orientation="vertical"
+    android:background="@drawable/fundo">
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/seta"
+        android:onClick="btnVoltarAgendamento">
+    </Button>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp">
+
+    </TextView>
+
+
+
+    <EditText
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Nome Paciente"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:fontFamily="@font/arial"
+        android:textColorHint="#FFF"
+        android:backgroundTint="#FFF"
+        android:layout_marginTop="10dp"
+        android:id="@+id/nome">
+    </EditText>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Data Consulta:"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:fontFamily="@font/arial"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#FFF"
+        android:backgroundTint="#FFF"
+        android:id="@+id/data">
+    </EditText>
+
+
+
+    <EditText
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Hora Consulta"
+        android:inputType="datetime"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:fontFamily="@font/arial"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#FFF"
+        android:backgroundTint="#FFF"
+        android:id="@+id/hora">
+    </EditText>
+
+    <EditText
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Termino Atendimento "
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:fontFamily="@font/arial"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#FFF"
+        android:backgroundTint="#FFF"
+        android:id="@+id/termino">
+
+    </EditText>
+
+    <TextView
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Valor Consulta:"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:fontFamily="@font/arial"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#FFF"
+        android:backgroundTint="#FFF"
+        android:id="@+id/valor">
+
+    </TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpeza - R$50,00"
+            android:id="@+id/limpeza"
+            android:backgroundTint="#000000"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            android:fontFamily="@font/arial"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manutenção - R$100,00"
+            android:id="@+id/manutencao"
+            android:backgroundTint="#000000"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            android:fontFamily="@font/arial"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clareamento - R$+150,00"
+            android:id="@+id/clareamento"
+            android:backgroundTint="#000000"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            android:fontFamily="@font/arial"
+            android:textSize="20sp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/confirma"
+        android:layout_gravity="center_horizontal"
+        android:onClick="btnconfirmar">
+    </Button>
+
+</LinearLayout>
+

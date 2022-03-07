@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInFragment">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#B6B6B6"
+        android:textColorHint="#B6B6B6"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/username"
+        android:backgroundTint="#B6B6B6"
+        android:textColorHint="#B6B6B6"/>
+
+    <EditText
+        android:id="@+id/secondpassword"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="TextPassword"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/email"
+        android:backgroundTint="#B6B6B6"
+        android:textColorHint="#B6B6B6"/>
+
+    <ImageButton
+        android:id="@+id/proximasign"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/setinhaazul"
+        android:layout_below="@+id/secondpassword"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="15dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GastoMensal"
+    android:orientation="vertical"
+    android:background="@drawable/fundydois">
+
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/seta"
+        android:layout_marginTop="5dp"
+        android:onClick="btnvoltarmenugastomensal">
+
+    </Button>
+
+
+
+
+
+    <ImageView
+    android:layout_width="130dp"
+    android:layout_height="130dp"
+    android:background="@drawable/logoprincipal"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:background="@drawable/fundy"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/arial"
+            android:text="Valor Gasto Mensal"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="30sp">
+        </TextView>
+
+        <TextView
+            android:paddingTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/fundoet"
+            android:fontFamily="@font/arial"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:id="@+id/tvmensal"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="R$0,00"
+            android:textSize="30sp">
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>

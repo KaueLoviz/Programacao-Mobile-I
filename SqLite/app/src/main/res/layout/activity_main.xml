@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fundy">
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/ic_chamada_telefonica"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:background="@drawable/fundydois"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+
+
+
+
+        <EditText
+
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Nome"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="@font/thin"
+            android:textColorHint="#585858"
+            android:layout_marginTop="60dp"
+            android:id="@+id/nome"
+            android:background="@drawable/fundoet"
+            android:paddingHorizontal="20dp"
+            >
+        </EditText> />
+
+        <EditText
+
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Email"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="@font/thin"
+            android:textColorHint="#000"
+            android:layout_marginTop="10dp"
+            android:id="@+id/email"
+            android:background="@drawable/fundoet"
+            android:paddingHorizontal="20dp"
+            >
+        </EditText> />
+
+        <EditText
+
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fundoet"
+            android:hint="Telefone"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="@font/thin"
+            android:textColorHint="#000"
+            android:layout_marginTop="10dp"
+            android:id="@+id/telefone"
+            android:paddingHorizontal="20dp">
+        </EditText> />
+
+        <EditText
+
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Assunto"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="@font/thin"
+            android:textColorHint="#000"
+            android:layout_marginTop="10dp"
+            android:id="@+id/assunto"
+            android:paddingHorizontal="20dp"
+            android:background="@drawable/fundoet">
+
+        </EditText> />
+
+        <EditText
+
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:hint="Mensagem"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="@font/thin"
+            android:textColorHint="#000"
+            android:layout_marginTop="10dp"
+            android:id="@+id/mensagem"
+            android:paddingHorizontal="20dp"
+            android:background="@drawable/fundoet">
+        </EditText> />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="Salvar"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:fontFamily="@font/arial"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="btnsalvar"
+            android:background="@drawable/fundobtn">
+        </Button>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Exibir"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:fontFamily="@font/arial"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/fundobtn"
+            android:onClick="btnexibir">
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

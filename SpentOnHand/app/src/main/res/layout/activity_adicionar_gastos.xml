@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdicionarGastos"
+    android:orientation="vertical"
+    android:background="@drawable/fundydois">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/logoprincipal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:background="@drawable/fundy"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Produto"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="@font/thin"
+            android:textColorHint="#585858"
+            android:layout_marginTop="100dp"
+            android:id="@+id/produto"
+            android:background="@drawable/fundoet"
+            android:paddingHorizontal="20dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Valor  Produto"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="@font/thin"
+            android:textColorHint="#585858"
+            android:layout_marginTop="40dp"
+            android:id="@+id/valor"
+            android:background="@drawable/fundoet"
+            android:paddingHorizontal="20dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Site ou Loja"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="@font/thin"
+            android:textColorHint="#585858"
+            android:layout_marginTop="40dp"
+            android:id="@+id/site"
+            android:background="@drawable/fundoet"
+            android:paddingHorizontal="20dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Data da Compra"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="@font/thin"
+            android:textColorHint="#585858"
+            android:layout_marginTop="40dp"
+            android:id="@+id/data"
+            android:background="@drawable/fundoet"
+            android:paddingHorizontal="20dp">
+        </EditText>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:text="Salvar"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:fontFamily="@font/arial"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="btnsalvaradicionar"
+            android:background="@drawable/fundybtn">
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
